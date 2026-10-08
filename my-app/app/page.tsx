@@ -1,10 +1,10 @@
-import Image from "next/image";
-import { Button } from "@/components/ui/button";
+import Hero from "@/components/landing-page/hero-section";
 export default function Home() {
   return (
    <>
-   <div>hello world</div>
-   <Button>click me !!</Button>
+    <div>
+      <Hero/>
+    </div>
    </>
   );
 }

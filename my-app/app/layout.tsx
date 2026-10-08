@@ -3,7 +3,7 @@ import { Roboto_Mono, Geist } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 
-const geist = Geist({subsets:['latin'],variable:'--font-sans'});
+const geist = Geist({ subsets: ['latin'], variable: '--font-sans' });
 
 const robotoMono = Roboto_Mono({
   subsets: ["latin"],
@@ -12,7 +12,7 @@ const robotoMono = Roboto_Mono({
 export const metadata: Metadata = {
   title: "iBuiltThis",
   description:
-    "iBuiltThis is a platform for showcasing and discovering innovative projects and ideas.",
+    "A community platform for creators to showcase their apps, AI tools,SaaS products, and creative projects. Authentic launches, realbuilders, genuine feedback."
 };
 
 export default function RootLayout({
